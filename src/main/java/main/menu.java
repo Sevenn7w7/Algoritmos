@@ -38,7 +38,7 @@ Scanner sc =new Scanner(System.in);
 //        case 7:
 //            
 //            break;
-//    }
-//    
    }
-}
+   
+   }
+    }  

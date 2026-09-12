@@ -12,18 +12,13 @@ import java.util.Scanner;
  */
 public class Nivel3 {
     public void algoritmos5 (){
-    double[] numeros = new double[8];
-    Scanner sc =new Scanner(System.in);
-    for(int i=0; i < numeros.length; i++){
-     System.out.println("Ingrese un numero decimal " +(i+1)+ ": ");
-   numeros[i]= sc.nextDouble();
+    int mayor= numeros [0];
+    int menor= numeros [0];
 }
     double suma = 0;
     for (int i = 0; i < numeros.length; i++ ){
-        suma=suma + numeros[i];
-    }
-    double suma = 0;
-    System.out.
-}
+        if (numeros[i]> mayor){
     
+}
+    if (numeros[i]> menor){
 }
