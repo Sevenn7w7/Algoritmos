@@ -9,5 +9,9 @@ package main;
  * @author April
  */
 public class Nivel2 {
-    
+    public void algoritmo2(){
+        boolean[] valores = {true, false, true, true, false, true};
+        for (int i=0; i < valores.length ;i++)
+            System.out.println(" [" + i + "]: " + valores[i]);
+    }
 }
