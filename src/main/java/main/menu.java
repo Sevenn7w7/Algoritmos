@@ -4,19 +4,22 @@
  */
 package main;
 
+import java.util.Scanner;
+
 /**
  *
  * @author April
  */
 public class menu {
     public static void main(String[] args){
-//    System.out.println("Favor elija un nivel");
-//    int nivel = sc.nextInt(); //por que no funciona?
-//    
-//    switch (nivel){
-//        case 1:
-//            
-//            break;
+  System.out.println("Favor elija un nivel");
+Scanner sc =new Scanner(System.in);
+   int nivel = sc.nextInt(); //ya funcionooooooo
+    
+    switch (nivel){
+        case 1:
+           
+           break;
 //        case 2:
 //            
 //            break;
