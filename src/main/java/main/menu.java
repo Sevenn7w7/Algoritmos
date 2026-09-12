@@ -5,17 +5,22 @@
 package main;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author April
  */
 public class menu {
-    public static void main(String[] args){
-  System.out.println("Favor elija un nivel");
-Scanner sc =new Scanner(System.in);
-   int nivel = sc.nextInt(); //ya funcionooooooo
-    
+    public void menu(){}
+ Nivel1 n1 = new Nivel1();
+ Nivel2 n2 = new Nivel2();
+ Nivel3 n3 = new Nivel3();
+Nivel4 n4 = new Nivel4();
+Nivel5 n5 = new Nivel5();
+ String textoNivel  = JOptionPane.showInputDialog("Por favor elija un nivel del 1 al 5 para pooder comprobar nuestras funciones")
+ int nivel = Integer.parseInt(textoNivel);
+}
     switch (nivel){
         case 1:
            
@@ -35,10 +40,11 @@ Scanner sc =new Scanner(System.in);
 //        case 6:
 //            
 //            break;
-//        case 7:
-//            
-//            break;
+        case 7:
+           
+          break;
    }
+
    
    }
     }  

@@ -5,6 +5,7 @@
 package main;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -13,10 +14,10 @@ import java.util.Scanner;
 public class Nivel2 {
      public void algoritmos5 (){
     double[] numeros = new double[8];
-    Scanner sc =new Scanner(System.in);
+   
     for(int i=0; i < numeros.length; i++){
-     System.out.println("Ingrese un numero decimal " +(i+1)+ ": ");
-   numeros[i]= sc.nextDouble();
+     String texto = JOptionPane.showInputDialog("Ingrese un numero decimal " +(i+1)+ ": ");
+   numeros[i]= Double.parseDouble(texto);
 }
     double suma = 0;
     for (int i = 0; i < numeros.length; i++ ){
@@ -27,10 +28,10 @@ public class Nivel2 {
 }
      public void algoritmos6 (){
      boolean [] asistencia = new boolean [20];
-     Scanner sc = new Scanner (System.in);
+     
      for (int i = 0; i < asistencia.length; i++){
-          System.out.println("Asistio " + (i+ 1)+ "? (true/ false): ");
-          asistencia[i]= sc.nextBoolean();
+          String texto = JOptionPane.showInputDialog("Asistio " + (i+ 1)+ "? (true/ false): ");
+          asistencia[i]= Boolean.parseBoolean(texto);
      }
      int asistieron = 0;
              for (int i = 0; i < asistencia.length ; i++){

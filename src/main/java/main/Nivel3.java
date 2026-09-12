@@ -4,7 +4,7 @@
  */
 package main;
 
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -13,20 +13,40 @@ import java.util.Scanner;
 public class Nivel3 {
     public void algoritmos9 (){
         int[] numeros =new int [10];
-       
+      for (int i = 0; i < numeros.length; i++ ){
+          String texto = JOptionPane.showInputDialog ("Ingrese el numero " +(i+1)+ ":");
+          numeros[i] =  Integer.parseInt(texto);
+      }
     int mayor= numeros [0];
     int menor= numeros [0];
 
-    double suma = 0;
     for (int i = 0; i < numeros.length; i++ ){
         if (numeros[i]> mayor){
     mayor = numeros [i];
         }
 
-    if (numeros[i] > menor){
+    if (numeros[i] < menor){
      menor = numeros [i];
 }
 }
-    
+    JOptionPane.showMessageDialog(null, "Mayor: " +mayor+ "Menor: " +menor);
+    }
+    public void algoritmos10 (){
+          int[] numeros =new int [10];
+          for(int i =0; i < numeros.length; i++){
+          String texto = JOptionPane.showInputDialog("ingrese el numero " +(i+1)+ ":");
+                  numeros[i]=Integer.parseInt(texto);
+          }
+          String textoBuscado = JOptionPane.showInputDialog("Que numero desea buscar?");
+                  int buscado = Integer.parseInt(textoBuscado);
+                  
+          int posicion = -1;
+          for (int i=0; i < numeros.length; i++){
+          if(numeros[i] == buscado){
+          posicion = i;
+          break;
+          }
+              }
+  JOptionPane.showMessageDialog(null, "Posicion: " +posicion);
 }
 }
