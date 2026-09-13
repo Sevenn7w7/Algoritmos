@@ -47,6 +47,7 @@ public class Nivel2 {
                 + "\nFaltaron: " + faltaron
                 +"\nPorcentaje de asistencia: "+ String.format("%2f", porcentaje)+"%";
         JOptionPane.showMessageDialog(null, resultado);
+    }
 
     //Jazmin
     //Dado un arreglo de caracteres, contar cuántas vocales
@@ -90,3 +91,4 @@ public class Nivel2 {
         JOptionPane.showMessageDialog(null, resultado);
     }
 }
+
