@@ -11,9 +11,13 @@ import javax.swing.JOptionPane;
  * @author April
  */
 public class Nivel5 {
+<<<<<<< HEAD
     
     //Crear dos arreglos de igual tamaño
     public void algoritmo17(){
+=======
+    public void algoritmos17(){
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
         int[] arreglo1 = new int [5];
         int[] arreglo2 = new int [5];
         int[] suma = new int [5];
@@ -37,8 +41,13 @@ public class Nivel5 {
         JOptionPane.showMessageDialog(null, "Arreglo suma: " +resultado);
     }
     
+<<<<<<< HEAD
     //Crear dos arreglos de precios de igual tamaño. Construir un tercero con la diferencia 
     public void algoritmo18 (){
+=======
+    //18
+    public void algoritmos18 (){
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
           double[] precios1 = new double[5];
        double[] precios2 = new double[5];
        double[] diferencias = new double[5];
@@ -63,6 +72,7 @@ public class Nivel5 {
         }
         
     }
+<<<<<<< HEAD
     
     //Leer un arreglo y determinar si está ordenado de forma ascendente
     public void algoritmo19(){
@@ -136,4 +146,6 @@ public class Nivel5 {
         JOptionPane.showMessageDialog(null, resultado);
         
     }
+=======
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
 }

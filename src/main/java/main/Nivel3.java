@@ -11,9 +11,13 @@ import javax.swing.JOptionPane;
  * @author April
  */
 public class Nivel3 {
+<<<<<<< HEAD
     
     //Leer 10 enteros y determinar el valor mayor y el valor menor
     public void algoritmo9 (){
+=======
+    public void algoritmos9 (){
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
         int[] numeros =new int [10];
       for (int i = 0; i < numeros.length; i++ ){
           String texto = JOptionPane.showInputDialog ("Ingrese el numero " +(i+1)+ ":");
@@ -33,9 +37,13 @@ public class Nivel3 {
 }
     JOptionPane.showMessageDialog(null, "Mayor: " +mayor+ "Menor: " +menor);
     }
+<<<<<<< HEAD
     
     //Leer un arreglo y solicitar un número a buscar
     public void algoritmo10 (){
+=======
+    public void algoritmos10 (){
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
           int[] numeros =new int [10];
           for(int i =0; i < numeros.length; i++){
           String texto = JOptionPane.showInputDialog("ingrese el numero " +(i+1)+ ":");
@@ -53,6 +61,7 @@ public class Nivel3 {
               }
   JOptionPane.showMessageDialog(null, "Posicion: " +posicion);
 }
+<<<<<<< HEAD
     
     //Leer 12 números y solicitar un valor
     public void algoritmo11(){
@@ -105,4 +114,6 @@ public class Nivel3 {
         
         
     }
+=======
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
 }

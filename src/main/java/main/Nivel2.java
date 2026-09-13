@@ -12,9 +12,13 @@ import javax.swing.JOptionPane;
  * @author April
  */
 public class Nivel2 {
+<<<<<<< HEAD
     
     //Leer 8 números decimales y calcular el promedio general
      public void algoritmo5 (){
+=======
+     public void algoritmos5 (){
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
     double[] numeros = new double[8];
    
     for(int i=0; i < numeros.length; i++){
@@ -28,9 +32,13 @@ public class Nivel2 {
     double promedio = suma / numeros.length;
     System.out.println("El promedio es: "+String.format("%.2f", promedio));
 }
+<<<<<<< HEAD
      
      //Usar un arreglo de 20 valores booleanos
      public void algoritmo6 (){
+=======
+     public void algoritmos6 (){
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
      boolean [] asistencia = new boolean [20];
      
      for (int i = 0; i < asistencia.length; i++){
@@ -50,6 +58,7 @@ public class Nivel2 {
                        System.out.println("Porcentaje de asistencia: " + String.format("%.2f", porcentaje) + "%");
                       
      }
+<<<<<<< HEAD
      
      //Dado un arreglo de caracteres, contar cuántas vocales
      public void algoritmo7(){
@@ -92,5 +101,7 @@ public class Nivel2 {
         
         JOptionPane.showMessageDialog(null, resultado);
     }
+=======
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
 }
 

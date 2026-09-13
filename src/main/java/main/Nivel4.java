@@ -9,9 +9,13 @@ import javax.swing.JOptionPane;
  * @author April
  */
 public class Nivel4 {
+<<<<<<< HEAD
     
     //Invertir un arreglo de enteros en el mismo arreglo
     public void algoritmo13(){  
+=======
+    public void algoritmos13(){  
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
     int[] numeros = new int [10];
     for (int i = 0; i < numeros.length; i++){
     String texto = JOptionPane.showInputDialog("ingrese el numero " +(i+1)+ ":");
@@ -29,9 +33,13 @@ public class Nivel4 {
     }
     JOptionPane.showMessageDialog(null, "Arreglo invertido: " +resultado);
             }
+<<<<<<< HEAD
     
     //Crear una copia independiente de un arreglo de 10 enteros
     public void algoritmo14(){  
+=======
+    public void algoritmos14(){  
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
         int[] original = new int [10];
     for (int i = 0; i < original.length; i++){
     String texto = JOptionPane.showInputDialog("ingrese el numero " +(i+1)+ ":");
@@ -45,6 +53,7 @@ public class Nivel4 {
     copia[0] = copia[0] + 100;
      JOptionPane.showMessageDialog(null, "original[0]: " +original[0]+ "\ncopia[0] " +copia[0]);
 }
+<<<<<<< HEAD
     
     //Rotar un arreglo una posición hacia la derecha
     public void algoritmo15(){
@@ -98,6 +107,8 @@ public class Nivel4 {
         JOptionPane.showMessageDialog(null, resultado);
         
     }
+=======
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
 }
 
     

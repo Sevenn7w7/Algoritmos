@@ -4,28 +4,39 @@
  */
 package main;
 
+<<<<<<< HEAD
 import javax.swing.JOptionPane;
 
+=======
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
 /**
  *
  * @author April
  */
 public class Nivel1 {
+<<<<<<< HEAD
     
     
     //Crear un arreglo de 4 números decimales
     public void algoritmo1(){
+=======
+    public void Algoritmo1(){
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
         double[] numeros = {11.2, 3.1, 27.84, 39.56};
         System.out.println("Longitud del arreglo  :" +numeros.length);
         System.out.println("Ultimo elemento :" +numeros[numeros.length -1]);
     }
 
+<<<<<<< HEAD
     //Crear un arreglo de 6 valores booleanos
+=======
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
     public void algoritmo2(){
         boolean[] valores = {true, false, true, true, false, true};
         for (int i=0; i < valores.length ;i++)
             System.out.println(" [" + i + "]: " + valores[i]);
     }
+<<<<<<< HEAD
     
     
     //Leer 8 numeros enteros
@@ -53,4 +64,6 @@ public class Nivel1 {
         }
         JOptionPane.showMessageDialog(null, resultado);
     }
+=======
+>>>>>>> 81289504108e106e9294b3ad28b74d2b4805d235
 }
