@@ -3,12 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package main;
+
 import javax.swing.JOptionPane;
+
 /**
  *
  * @author April
  */
 public class Nivel4 {
+
     //April
     public void algoritmo13() {
         int[] numeros = new int[10];
@@ -24,7 +27,7 @@ public class Nivel4 {
         }
         String resultado = "";
         for (int i = 0; i < numeros.length; i++) {
-            resultado = resultado + numeros[i] + "";
+            resultado = resultado + numeros[i] + " ";
         }
         JOptionPane.showMessageDialog(null, "Arreglo invertido: " + resultado);
     }
@@ -51,7 +54,7 @@ public class Nivel4 {
 
         String original = "";
         for (int i = 0; i < numeros.length; i++) {
-            original += numeros[i] + "";
+            original += numeros[i] + " ";
         }
 
         int ultimo = numeros[numeros.length - 1];
@@ -62,10 +65,10 @@ public class Nivel4 {
 
         String rotado = "";
         for (int i = 0; i < numeros.length; i++) {
-            rotado += numeros[i] + "";
+            rotado += numeros[i] + " ";
         }
 
-        String resultado = "Arreglo original: " + original + "\nArreglo rotado:" + rotado;
+        String resultado = "Arreglo original: " + original + "\nArreglo rotado: " + rotado;
         JOptionPane.showMessageDialog(null, resultado);
     }
 
@@ -75,26 +78,24 @@ public class Nivel4 {
 
         String original = "";
         for (int i = 0; i < numeros.length; i++) {
-            original += numeros[i] + "";
+            original += numeros[i] + " ";
         }
 
-        int indice1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el primer indice: ") + (numeros.length - 1));
-        int indice2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el primer indice: ") + (numeros.length - 1));
+        int indice1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el primer indice: "));
+        int indice2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el segundo indice: "));
 
         if (indice1 >= 0 && indice1 < numeros.length && indice2 >= 0 && indice2 < numeros.length) {
             int temp = numeros[indice1];
             numeros[indice1] = numeros[indice2];
             numeros[indice2] = temp;
-
         }
 
-        String modificado = " ";
+        String modificado = "";
         for (int i = 0; i < numeros.length; i++) {
             modificado += numeros[i] + " ";
         }
 
         String resultado = "Arreglo original: " + original + "\nArreglo despues: " + modificado;
         JOptionPane.showMessageDialog(null, resultado);
-
     }
 }

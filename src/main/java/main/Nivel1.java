@@ -5,30 +5,34 @@
 package main;
 
 import javax.swing.JOptionPane;
-
 /**
  *
  * @author April
  */
-public class Nivel1 {
-    // April
 
+
+public class Nivel1 {
+
+    // April
     public void Algoritmo1() {
+        //Crear un arreglo de 4 números decimales
         double[] numeros = {11.2, 3.1, 27.84, 39.56};
-        JOptionPane.showMessageDialog(null,"Longitud del arreglo  :" + numeros.length);
-         JOptionPane.showMessageDialog(null,"Ultimo elemento :" + numeros[numeros.length - 1]);
+        JOptionPane.showMessageDialog(null, "Longitud del arreglo: " + numeros.length);
+        JOptionPane.showMessageDialog(null, "Ultimo elemento: " + numeros[numeros.length - 1]);
     }
 
+    //Crear un arreglo de 6 valores booleanos
     public void algoritmo2() {
         boolean[] valores = {true, false, true, true, false, true};
-        String resultado="";
+        String resultado = "";
         for (int i = 0; i < valores.length; i++) {
-            resultado = resultado + "[" + i + "]: " + valores[i];
+            resultado = resultado + "[" + i + "]: " + valores[i] + "\n";
         }
         JOptionPane.showMessageDialog(null, resultado);
     }
 
     // Jazmin
+    //Leer 8 numeros enteros
     public void algoritmo3() {
         int[] numeros = new int[8];
 
@@ -49,7 +53,7 @@ public class Nivel1 {
         String resultado = "";
 
         for (int i = 0; i < palabra.length(); i++) {
-            resultado += "Caracter:" + i + palabra.charAt(i) + "\n";
+            resultado += "Caracter " + i + ": " + palabra.charAt(i) + "\n";
         }
         JOptionPane.showMessageDialog(null, resultado);
     }

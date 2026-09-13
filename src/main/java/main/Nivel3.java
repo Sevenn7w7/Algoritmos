@@ -10,7 +10,9 @@ import javax.swing.JOptionPane;
  *
  * @author April
  */
+
 public class Nivel3 {
+
     //April
     public void algoritmo9() {
         int[] numeros = new int[10];
@@ -25,12 +27,11 @@ public class Nivel3 {
             if (numeros[i] > mayor) {
                 mayor = numeros[i];
             }
-
             if (numeros[i] < menor) {
                 menor = numeros[i];
             }
         }
-        JOptionPane.showMessageDialog(null, "Mayor: " + mayor + "Menor: " + menor);
+        JOptionPane.showMessageDialog(null, "Mayor: " + mayor + " Menor: " + menor);
     }
 
     public void algoritmo10() {
@@ -59,7 +60,6 @@ public class Nivel3 {
 
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el numero: " + (i + 1)));
-
         }
 
         int valorBuscado = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el valor: "));
@@ -71,7 +71,7 @@ public class Nivel3 {
             }
         }
 
-        String resultado = "El valor es: " + valorBuscado + "aparece" + contador + "veces";
+        String resultado = "El valor " + valorBuscado + " aparece " + contador + " veces";
         JOptionPane.showMessageDialog(null, resultado);
     }
 
@@ -100,6 +100,5 @@ public class Nivel3 {
                 + "\nConsonantes: " + consonantes
                 + "\nOtros simbolos: " + otros;
         JOptionPane.showMessageDialog(null, resultado);
-
     }
 }

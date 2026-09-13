@@ -4,7 +4,6 @@
  */
 package main;
 
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
@@ -12,6 +11,7 @@ import javax.swing.JOptionPane;
  * @author April
  */
 public class Nivel2 {
+
     //April
     public void algoritmo5() {
         double[] numeros = new double[8];
@@ -25,7 +25,7 @@ public class Nivel2 {
             suma = suma + numeros[i];
         }
         double promedio = suma / numeros.length;
-        JOptionPane.showMessageDialog(null,"El promedio es: " + String.format("%.2f", promedio));
+        JOptionPane.showMessageDialog(null, "El promedio es: " + String.format("%.2f", promedio));
     }
 
     public void algoritmo6() {
@@ -43,9 +43,9 @@ public class Nivel2 {
         }
         int faltaron = asistencia.length - asistieron;
         double porcentaje = (asistieron * 100.0) / asistencia.length;
-        String resultado ="Asistieron: "+ asistieron
+        String resultado = "Asistieron: " + asistieron
                 + "\nFaltaron: " + faltaron
-                +"\nPorcentaje de asistencia: "+ String.format("%2f", porcentaje)+"%";
+                + "\nPorcentaje de asistencia: " + String.format("%.2f", porcentaje) + "%";
         JOptionPane.showMessageDialog(null, resultado);
     }
 
@@ -82,7 +82,6 @@ public class Nivel2 {
             } else {
                 sumaImpares += numeros[i];
             }
-
         }
 
         String resultado = "Suma en indices pares: " + sumaPares
@@ -91,4 +90,3 @@ public class Nivel2 {
         JOptionPane.showMessageDialog(null, resultado);
     }
 }
-
